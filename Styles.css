@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-color: pink;
+    background-image: url(images/MicrosoftTeams-image\ \(22\).png); /*this is how you make an image in the whole background*/
+    background-size: cover; /*this means the image scales with the window if its made smaller or bigger*/
+    background-repeat: no-repeat; /* this means the image does not repeat where it does not fit onto the website*/
+
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+header {
+    height: 150px;
+    text-align: center;
+}
+nav {
+    background-color: rgba(255, 192, 203, 0.5);
+    color: black;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+main {
+    color: white;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+footer {
+    background-color: rgba(255, 192, 203, 0.5);
+    color: black;
+    height: 100px;
+}
+h1 {
+    font-size: 84px;
+    color: white;
+    
+}
+p {
+    font-size: 16px;
+    color: white;
+}
+.textBox {
+    height: 300px;
+    background-color: rgba(255, 192, 203, 0.5);
+ 
+}
+a {
+    color: black;
+}
